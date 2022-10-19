@@ -1,7 +1,11 @@
-<article>
-    <h1 href="/posts">My first blog post</h1>
-
-    <p>
-        Anim irure mollit qui id veniam et ut dolor Lorem mollit ut. Minim velit est anim esse nulla proident non consectetur officia. In Lorem est amet labore commodo laboris veniam reprehenderit ullamco labore elit. Consectetur reprehenderit culpa minim qui cupidatat irure ut fugiat velit reprehenderit incididunt sit ad anim.
-    </p>
-</article>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <?php echo $post_content ?>
+</body>
+</html>
